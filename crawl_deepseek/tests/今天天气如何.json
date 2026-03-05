@@ -1,0 +1,37 @@
+{
+  "answer": "已阅读 8 个网页\n\n抱歉，上次没能记住您的位置。今天（3月2日）北京的天气整体是阴冷的，大部分地区会有小雪或雨夹雪，出门记得多穿一些，也要注意交通安全。\n\n☁️ 天气状况：白天是阴天，大部分地区有小雪或雨夹雪-\n2\n-\n4\n-\n7\n。这场雨雪不大，是间歇性的，城区的降水会比较弱-\n3\n。夜间转为阴天，山区还会有小雪-\n2\n-\n6\n-\n7\n。\n\n🌡️ 今日气温：全天气温在 -1℃ 到 5℃ 之间，加上雨雪，体感会比较湿冷-\n2\n-\n5\n-\n6\n。\n\n🌬️ 风力信息：白天是北风转南风，风力2-3级；夜间转为南风转北风，风力1-2级-\n2\n-\n6\n-\n7\n。\n\n💡 特别提醒：\n\n道路结冰黄色预警生效中，路面湿滑，部分路段可能有积雪结冰，驾车请减速慢行，注意交通安全-\n3\n-\n6\n-\n7\n。\n\n今天也是中小学开学首日，早高峰交通可能比较拥堵，建议您提前规划路线，错峰出行-\n2\n-\n6\n。\n\n实时空气质量指数为122，属于轻度污染，敏感人群可以适当进行防护-\n6\n。\n\n另外，明天（正月十五）元宵节天气就会转晴，最高气温也将回升到11℃左右，比较适合赏月-\n2\n-\n7\n。\n\n8 个网页\n",
+  "references": [
+    {
+      "title": "weather.com.cn",
+      "url": "https://www.weather.com.cn/weather40d/101010100.shtml"
+    },
+    {
+      "title": "news.weather.com.cn",
+      "url": "http://news.weather.com.cn/2026/03/4532022.shtml"
+    },
+    {
+      "title": "bjnews.com.cn",
+      "url": "https://www.bjnews.com.cn/detail/1772412434129610.html"
+    },
+    {
+      "title": "sohu.com",
+      "url": "https://www.sohu.com/a/991546475_163278?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334&spm=smpc.channel_248.block3_308_NDdFbm_1_fd.7.1772424696834eacqZZW_324"
+    },
+    {
+      "title": "sohu.com",
+      "url": "https://www.sohu.com/a/991452220_114988?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334&spm=smpc.channel_248.block3_308_NDdFbm_1_fd.2.1772409913128LU8XOQ5_324"
+    },
+    {
+      "title": "sohu.com",
+      "url": "https://www.sohu.com/a/991476621_162758?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334&spm=smpc.channel_248.block3_308_NDdFbm_1_fd.3.1772414883632kp2a4Vs_324"
+    },
+    {
+      "title": "nmc.cn",
+      "url": "https://nmc.cn/publish/forecast/ABJ/beijing.html"
+    },
+    {
+      "title": "big5.cctv.com",
+      "url": "http://big5.cctv.com/gate/big5/news.cctv.com/2026/03/02/ARTI9ZXblqyZsSuVGhgjxRTm260302.shtml"
+    }
+  ]
+}

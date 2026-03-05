@@ -2,8 +2,6 @@
 
 <div align="center">
 
-![Ark of Minds](./crawl_deepseek/asset/introduction.png)
-
 **AI应用集合 - 探索人工智能的无限可能**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -14,23 +12,19 @@
 
 ---
 
-## 🎬 演示视频
+## ✨ 应用列表
+
+### 🕷️ [crawl_deepseek](./crawl_deepseek)
 
 <div align="center">
 
-https://github.com/user-attachments/assets/your-video-id
+![DeepSeek 爬虫应用](./crawl_deepseek/asset/introduction.png)
 
-*点击上方视频查看应用演示*
+**DeepSeek数据爬虫与处理工具** - 高效爬取和处理 DeepSeek 数据
+
+[查看文档 →](./crawl_deepseek/README.md) | [查看演示 →](./crawl_deepseek/asset/screen_record.mp4)
 
 </div>
-
----
-
-## ✨ 应用列表
-
-| 应用 | 描述 | 状态 |
-|------|------|------|
-| [🕷️ crawl_deepseek](./crawl_deepseek) | DeepSeek数据爬虫与处理工具 | ✅ 活跃 |
 
 ---
 
@@ -47,9 +41,6 @@ cat README.md
 
 # 安装依赖
 pip install -r requirements.txt
-
-
-
 ```
 
 ---
@@ -95,4 +86,4 @@ ark_of_minds/
 
 Made with ❤️ by the Ark of Minds Team
 
-</div># ark_of_minds
+</div>
