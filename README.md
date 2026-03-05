@@ -2,7 +2,7 @@
 
 <div align="center">
 
-**AI应用集合 - 探索人工智能的无限可能**
+**AI Coding能做什么？要试过才知道**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
@@ -14,13 +14,13 @@
 
 ## ✨ 应用列表
 
-### 🕷️ [crawl_deepseek](./crawl_deepseek)
+### 🕷️ [Task1：crawl_deepseek](./crawl_deepseek)
 
 <div align="center">
 
 ![DeepSeek 爬虫应用](./crawl_deepseek/asset/introduction.png)
 
-**DeepSeek数据爬虫与处理工具** - 高效爬取和处理 DeepSeek 数据
+**DeepSeek数据爬虫与处理工具** - 批量去网页版DeepSeek提问并获取答案和搜索链接
 
 [查看文档 →](./crawl_deepseek/README.md) | [查看演示 →](./crawl_deepseek/asset/screen_record.mp4)
 
