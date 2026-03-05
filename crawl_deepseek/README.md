@@ -1,6 +1,6 @@
-# 🤖 DeepSeek 自动问答爬虫
+# 🤖 Task 1 - DeepSeek 自动问答爬虫
 
-> 让 AI 自动帮你提问 DeepSeek，并保存回答和引用链接
+> 让 AI 自动帮你打开网页，打开搜索模式并提问 DeepSeek，并保存回答和引用链接
 
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/)
 [![Browser-Use](https://img.shields.io/badge/Browser--Use-0.12.0-green.svg)](https://github.com/browser-use/browser-use)
@@ -12,15 +12,13 @@
 
 就像有一个助手帮你去 DeepSeek 网站提问，然后把答案整理好放进文件里——你只需要告诉它问什么。
 
+## 项目一页纸
+
+![和AI不算peace的首次合作](./asset/introduction.png)
+
 ## 🎬 演示视频
 
-<div align="center">
-
-[![点击观看演示视频](./asset/introduction.png)](./asset/screen_record.mp4)
-
-*点击图片观看完整演示视频*
-
-</div>
+https://github.com/user-attachments/assets/046b79fa-3998-4389-bcb4-d5ec1307e224
 
 ## 🚀 能做什么
 
@@ -28,8 +26,6 @@
 |------|------|
 | 📊 批量调研 | 一次提问 10 个关于"天弘基金"的问题 |
 | 📰 新闻汇总 | 自动获取最新科技新闻并整理 |
-| 📈 数据收集 | 获取天气、股价等实时信息 |
-| 💡 知识问答 | 任何你想问 DeepSeek 的问题 |
 
 ## 📦 安装
 
