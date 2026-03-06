@@ -18,7 +18,7 @@
 
 ## 🎬 演示视频
 
-https://github.com/user-attachments/assets/046b79fa-3998-4389-bcb4-d5ec1307e224
+![Screen Record](./asset/screen_record.gif)
 
 ## 🚀 能做什么
 
