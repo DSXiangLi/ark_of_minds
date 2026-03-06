@@ -24,7 +24,7 @@
 
 **可解锁技能点：open code，browser-use，单智能体，Agents.md**
 
-[查看文档 →](./crawl_deepseek/README.md) | [查看演示 →](./crawl_deepseek/asset/screen_record.mp4)
+[查看文档 →](./crawl_deepseek/README.md)
 
 </div>
 
