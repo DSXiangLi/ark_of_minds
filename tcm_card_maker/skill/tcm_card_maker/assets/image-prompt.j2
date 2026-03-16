@@ -1,0 +1,86 @@
+## 整体风格要求
+以中式美学为整体风格，底纹用水墨远山、高山流水等元素，根据方剂特点融入不同的中式风格，注意不遮挡文字，保持整体协调美观。
+
+## 布局要求
+**三列并排展示**，列和列之间用有中医元素的云纹进行分割。
+
+### 第1列 · 方名与基础信息
+- **方名**：{{ formula_name }}，用颜楷字体，底色配合{{ formula_type }}选择不同颜色
+- **口诀**："{{ core_rhyme }}"，用文字卡片形式展示
+- **手绘本草**：{{ herbs|join('、') }}的手绘图像，要求准确美观
+- **主治**：对以下症状进行图片化展现：
+  {% for symptom in indications.main_symptoms %}
+  - {{ symptom }}
+  {% endfor %}
+  {% if indications.additional_symptoms %}
+  兼证：
+  {% for symptom in indications.additional_symptoms %}
+  - {{ symptom }}
+  {% endfor %}
+  {% endif %}
+
+{% if optional_sections.pathogenesis_evolution %}
+- **病机演变**：使用图片化呈现：
+  {{ optional_sections.pathogenesis_evolution }}
+{% endif %}
+
+{% if optional_sections.usage_rules %}
+### 使用铁律
+{{ optional_sections.usage_rules }}
+{% endif %}
+
+### 第2列 · 病机与药物分析
+- **病机剧场**：{{ pathogenesis_theater.title }}
+  {{ pathogenesis_theater.description }}
+  使用漫画类型的场景展示，搭配文字注解说明病机核心。
+  
+- **药物行动队**（拟人化展示）：
+  {% for action in herb_actions %}
+  - **{{ action.group }}**：
+    {% set herbs_list = action.herbs %}
+    {% set action_parts = action.action.split('；') %}
+    {% set analogy_parts = action.analogy.split('；') %}
+    
+    {% for i in range(herbs_list|length) %}
+      - **{{ herbs_list[i] }}**：
+        {% if i < action_parts|length %}{{ action_parts[i] }}{% endif %}
+        {% if i < analogy_parts|length %}如同{{ analogy_parts[i] }}{% endif %}
+    {% endfor %}
+    
+    用拟人化角色卡片展示，每个药物有角色名和形象。
+  {% endfor %}
+
+{% if optional_sections.compatibility_insights %}
+### 配伍点睛
+{{ optional_sections.compatibility_insights }}
+{% endif %}
+
+### 第3列 · 应用与经典
+- **症状-药物连线**：
+  {% for link in symptom_herb_links %}
+  - {{ link.symptom }} ← {{ link.herb }} ({{ link.action }})
+  {% endfor %}
+  使用最优图片展示并配合必要文字。
+
+- **临床应用**：
+  **适用场景**：{{ clinical_reminders.scenarios|join('、') }}
+  {% if clinical_reminders.usage_tips %}
+  **使用要点**：{{ clinical_reminders.usage_tips }}
+  {% endif %}
+  使用文字卡片形式的展现，保留核心内容。
+
+- **经典原文**：
+  "{{ classical_text }}"
+  使用文字卡片形式的展现。
+
+{% if optional_sections.modifications %}
+### 兼证加减
+{{ optional_sections.modifications }}
+{% endif %}
+
+{% if optional_sections.usage_points %}
+### 用法要点
+{{ optional_sections.usage_points }}
+{% endif %}
+
+

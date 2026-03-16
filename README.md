@@ -28,6 +28,20 @@
 
 </div>
 
+### 🌿 [Task2：tcm_card_maker](./tcm_card_maker)
+
+<div align="center">
+
+![中医方剂卡片](./tcm_card_maker/asset/introduction.png)
+
+**AI 中医方剂卡片生成器** - 输入方剂名称，AI 自动完成知识整理并生成精美中式卡片图像
+
+**可解锁技能点：OpenClaw，技能开发，AI绘图，图像生成**
+
+[查看文档 →](./tcm_card_maker/README.md)
+
+</div>
+
 ---
 
 ## 🚀 快速开始
@@ -45,6 +59,18 @@ cat README.md
 pip install -r requirements.txt
 ```
 
+或者体验中医方剂卡片 maker：
+
+```bash
+cd tcm_card_maker/skill/tcm_card_maker
+
+# 查看技能文档
+cat SKILL.md
+
+# 安装依赖
+pip install requests python-dotenv jinja2
+```
+
 ---
 
 ## 📁 项目结构
@@ -55,6 +81,13 @@ ark_of_minds/
 │   ├── src/                 # 源代码
 │   ├── tests/               # 测试文件
 │   ├── asset/               # 资源文件（图片、视频）
+│   ├── README.md            # 应用文档
+│   └── ...
+├── tcm_card_maker/          # 中医方剂卡片生成器
+│   ├── skill/               # 技能定义
+│   ├── memory/              # 技能记忆
+│   ├── asset/               # 资源文件
+│   ├── test/                # 测试文件
 │   ├── README.md            # 应用文档
 │   └── ...
 └── README.md                # 主文档（本文件）
