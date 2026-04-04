@@ -26,6 +26,8 @@
 
 [查看文档 →](./crawl_deepseek/README.md)
 
+[📖 博客：和AI一起搞事情#1 - opencode ×browser-use实战复盘](https://cloud.tencent.com/developer/article/2634586)
+
 </div>
 
 ### 🌿 [Task2：tcm_card_maker](./tcm_card_maker)
@@ -40,6 +42,8 @@
 
 [查看文档 →](./tcm_card_maker/README.md)
 
+[📖 博客：和AI一起搞事情#2 - 边剥龙虾&边做个中医方剂技能](https://cloud.tencent.com/developer/article/2642702)
+
 </div>
 
 ### 🏮 [Task3：formula_odyssey](./formula_odyssey) ⚠️ 已废弃
@@ -53,6 +57,8 @@
 **可解锁技能点：AI游戏设计，文字冒险，交互式AI**
 
 [查看文档 →](./formula_odyssey/README.md)
+
+[📖 博客：和AI一起搞事情#3 - Claude Teammate 开发中医游戏翻车了](https://cloud.tencent.com/developer/article/2650411)
 
 </div>
 
