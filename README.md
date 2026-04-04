@@ -42,13 +42,13 @@
 
 </div>
 
-### 🏮 [Task3：formula_odyssey](./formula_odyssey)
+### 🏮 [Task3：formula_odyssey](./formula_odyssey) ⚠️ 已废弃
 
 <div align="center">
 
 ![公式奥德赛](./formula_odyssey/assets/introduction.png)
 
-**AI 中医方剂文字冒险游戏** - 探索中医方剂世界的沉浸式文字冒险游戏
+**AI 中医方剂文字冒险游戏** - 探索中医方剂世界的沉浸式文字冒险游戏（探索性失败案例）
 
 **可解锁技能点：AI游戏设计，文字冒险，交互式AI**
 
