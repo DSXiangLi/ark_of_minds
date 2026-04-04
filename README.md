@@ -42,6 +42,20 @@
 
 </div>
 
+### 🏮 [Task3：formula_odyssey](./formula_odyssey)
+
+<div align="center">
+
+![公式奥德赛](./formula_odyssey/assets/introduction.png)
+
+**AI 中医方剂文字冒险游戏** - 探索中医方剂世界的沉浸式文字冒险游戏
+
+**可解锁技能点：AI游戏设计，文字冒险，交互式AI**
+
+[查看文档 →](./formula_odyssey/README.md)
+
+</div>
+
 ---
 
 ## 🚀 快速开始
@@ -88,6 +102,10 @@ ark_of_minds/
 │   ├── memory/              # 技能记忆
 │   ├── asset/               # 资源文件
 │   ├── test/                # 测试文件
+│   ├── README.md            # 应用文档
+│   └── ...
+├── formula_odyssey/         # 公式奥德赛游戏
+│   ├── assets/              # 资源文件（视频、演示）
 │   ├── README.md            # 应用文档
 │   └── ...
 └── README.md                # 主文档（本文件）
