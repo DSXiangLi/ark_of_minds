@@ -1,0 +1,3 @@
+[submodule "formula_odyssey/repo"]
+	path = formula_odyssey/repo
+	url = https://github.com/DSXiangLi/formula_odyssey.git
