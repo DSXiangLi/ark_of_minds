@@ -62,6 +62,38 @@
 
 </div>
 
+### 🌿 [Task4：tcm_odyssey](https://github.com/DSXiangLi/tcm_odyssey)
+
+<div align="center">
+
+![药灵山谷 - 药园区域](https://raw.githubusercontent.com/DSXiangLi/tcm_odyssey/master/assets/herb_area.gif)
+
+**药灵山谷 - AI 中医像素游戏** - 2D像素风格中医学习游戏，在探索药王谷的过程中学习中医知识
+
+**可解锁技能点：Phaser 3 游戏开发，TypeScript，AI NPC（Hermes-Agent），TDD，像素美术**
+
+[查看仓库 →](https://github.com/DSXiangLi/tcm_odyssey)
+
+[📖 博客：和AI一起搞事情#4 - 小白用Claude Code做游戏究竟能踩多少坑](https://cloud.tencent.com/developer/article/2657050)
+
+</div>
+
+### 🎮 [Task5：tcm_odyssey - 进阶篇](https://github.com/DSXiangLi/tcm_odyssey)
+
+<div align="center">
+
+![药灵山谷 - 煎药系统](https://raw.githubusercontent.com/DSXiangLi/tcm_odyssey/master/assets/煎药.gif)
+
+**AI 游戏开发技能进阶** - 从原型设计到代码实现的完整闭环，技能创建方法论与实践经验总结
+
+**可解锁技能点：Claude Design，Git Worktree，自定义技能系统，进度管理方法论**
+
+[查看仓库 →](https://github.com/DSXiangLi/tcm_odyssey)
+
+[📖 博客：和AI一起搞事情#5 - 技能进阶与Claude Design初体验](https://cloud.tencent.com/developer/article/2664349)
+
+</div>
+
 ---
 
 ## 🚀 快速开始
